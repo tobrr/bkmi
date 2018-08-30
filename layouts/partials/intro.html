@@ -1,6 +1,14 @@
 <section id="fh5co-intro">
 	<div class="container">
 		{{ if .Site.Params.intro.new_layout.enable }}
+			<div class="col-md-12 section-heading text-center">
+				<h2 class="to-animate">{{ with .Site.Params.intro.title }}{{ . }}{{ end }}</h2>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 subtext to-animate">
+						<h3>{{ with .Site.Params.intro.description }}{{ . | markdownify }}{{ end }}</h3>
+					</div>
+				</div>
+			</div>
 			<div class="row row-bottom-padded-lg intro-items">
 				{{ range .Site.Params.intro.item }}
 					<div class="{{ .col_size }} to-animate ">

@@ -1,27 +1,44 @@
 
-#fh5co-home .gradient {
-    display: none;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    opacity: .1;
-    -webkit-backface-visibility: hidden;
-    background-color: #2b2b2b91;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #7b3f75), color-stop(1, #c24d67));
-    background-image: -webkit-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
-    background-image: repeating-linear-gradient(to bottom right, #7b3f75 0%, #c24d67 100%);
-    background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
+
+#fh5co-home {
+    /* background-color: transparent; */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    /* background-color: #f8b801; */
+    color: #fff;
+    overflow: hidden;
 }
+
+/*#fh5co-home .gradient {*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    z-index: 2;*/
+/*    opacity: .1;*/
+/*    -webkit-backface-visibility: hidden;*/
+/*    background-color: #2b2b2b91;*/
+/*    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);*/
+/*    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #7b3f75), color-stop(1, #c24d67));*/
+/*    background-image: -webkit-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);*/
+/*    background-image: repeating-linear-gradient(to bottom right, #7b3f75 0%, #c24d67 100%);*/
+/*    background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);*/
+/*}*/
+
 
 #fh5co-home .text-inner h1 {
     font-size: 50px;
     color: white;
     margin: -230px 0px 0 -18px;
 }
+
+
+
+
 
 .logo .bkmi {
     background-color: white;
@@ -35,22 +52,37 @@
     width: 200px;
 }
 
+
 #fh5co-intro {
-
-    margin-top: 0px; 
-
+    background-image: url(/img/wallwood.jpg);
+    position: relative;
+    box-shadow: inset 0px 28px 58px -34px #fff0dd, 0px -16px 180px -17px antiquewhite;
 }
 
+
+#fh5co-intro .section-heading h2 {
+    color: black;
+}
+
+#fh5co-intro .section-heading {
+    background: white;
+    padding: 2.9em 0 0 0;
+    margin: 4em 0 -25px 0;
+}
+
+
+#fh5co-intro .intro-items {
+    background: white;
+}
 
 #fh5co-intro .intro-items>div {
     display: flex;
     align-items: flex-end;
-}
-
-.intro-items>div {
-    border: solid #eee 2px;
+    background: white;
+    /*border: solid #eee 2px;*/
     margin: 3px;
 }
+
 
 #fh5co-intro .container .row.intro-items {
     width: 100%;
@@ -66,12 +98,6 @@
 
 
 
-#fh5co-intro .intro-items .overlay:hover {
-    opacity: 1;
-    padding: 1em;
-    cursor: pointer;
-    color: white;
-}
 
 
 #fh5co-intro .intro-items .overlay {
@@ -92,13 +118,17 @@
     text-align: center;
 }
 
+#fh5co-intro .intro-items .overlay:hover {
+    opacity: 1;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
 
 #fh5co-intro .intro-items .overlay h2 {
     /*color:#f8b801;*/
     color: white;
     font-size: 1.2em;
-    
-    
 }
 
 
@@ -131,18 +161,16 @@
     display: block;
 }
 
-
-
-
-#fh5co-home {
-    background-color: transparent;
-    background-size: cover;
+section#fh5co-services {
+    background: url(/img/slider-bg.jpg);
+    background-size: contain;
     background-attachment: fixed;
-    position: relative;
-    width: 100%;
-    background-color: #f8b801;
-    color: #fff;
-    overflow: hidden;
+}
+
+#fh5co-services .fh5co-service {
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1em;
 }
 
 .fh5co-person {

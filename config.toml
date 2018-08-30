@@ -26,7 +26,7 @@ theme = "hugo-elate-theme"
   [params.hero]
   title = '<div class="bkmi"><img src="img/bmAG_RGB.svg" ></div>'
   subtitle = ""
-  background = 'img/wall.jpg'
+  background = 'img/walledge.jpg'
   
   [params.hero.stripe]
   enable = false
@@ -35,6 +35,8 @@ theme = "hugo-elate-theme"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
+  title = "Unsere Arbeiten"
+  description = ""
 
   [[params.intro.item]]
   col_size = "col-12 col-sm-4"
