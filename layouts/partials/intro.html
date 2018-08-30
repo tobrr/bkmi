@@ -5,6 +5,7 @@
 				{{ range .Site.Params.intro.item }}
 					<div class="{{ .col_size }} to-animate ">
 						<a class="popup-modal " href="#{{ .content_url }}">
+							<span>{{ .categorie }}</span>
 							<img src="{{ .img }}" />
 							<div class="overlay">
 								<div class="fh5co-text">
