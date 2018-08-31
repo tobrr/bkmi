@@ -80,7 +80,7 @@
 #fh5co-intro .intro-items>div {
     display: flex;
     margin: 3px;
-    height: 11em;
+    height: 15em;
 }
 
 
@@ -109,20 +109,20 @@
 
 #fh5co-intro .intro-items .overlay {
     position: absolute;
-    top: 0;
+    top: 0; 
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #4c2888a8;
+    background-color: #000000ad;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #ea4f50), color-stop(1, #c5393a));
-    background-image: -webkit-repeating-linear-gradient(top , #ea4f50cc 0%, #c5393a 100%);
-    background-image: repeating-linear-gradient(to bottom , #ea4f50c9 0%, #c5393a 100%);
+    /* background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #ea4f50), color-stop(1, #c5393a)); */
+    /* background-image: -webkit-repeating-linear-gradient(top , #ea4f50cc 0%, #c5393a 100%); */
+    /* background-image: repeating-linear-gradient(to bottom , #ffffff00 0%,#545454b3 25%, #525252 100%); */
     opacity: 0;
     -webkit-transition: .3s all;
     -o-transition: .3s all;
     transition: .3s all;
-    text-align: center;
+    text-align: left;
 }
 
 #fh5co-intro .intro-items .overlay:hover {
@@ -140,6 +140,19 @@
 
 
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+    .white-popup-block {
+        max-width: 1900px;
+    } 
+    
+}
 
 .white-popup-block {
     background: #FFF;

@@ -148,7 +148,7 @@ theme = "hugo-elate-theme"
   content = ''
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
+  img = "img/references/o-maeder-einladung.jpg"
   
   [[params.intro.item]]
   col_size = "col-11"
@@ -159,7 +159,7 @@ theme = "hugo-elate-theme"
   content = '<p>F&uuml;r das Magazin &laquo;Insider&raquo; des SC Bern durften wir f&uuml;r die <u><a href="http://www.bijouxstadelmann.ch">Bijoux Stadelmann AG</a></u> zwei Inserate gestalten. Hierzu ben&ouml;tigte es den passenden Titel, zus&auml;tzliches Bildmaterial als auch eine ansprechende Gestaltung. Der SCB war amtierender Meister, worauf der Inseratetitel hinwies: &laquo;Meisterliche Goldschmiedekunst&raquo;. Der Schmuck, den es noch abzulichten galt, wurde zum Thema passend in einem Torwarthandschuh fotografiert.</p>'
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
+  img = "img/references/bijoux-stadelmann-inserat.jpg"
   
   [[params.intro.item]]
   col_size = "col-10"
@@ -170,7 +170,7 @@ theme = "hugo-elate-theme"
   content = ''
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
+  img = "img/references/swiss-sales-einladung.jpg"
  
   [[params.intro.item]]
   col_size = "col-9"
@@ -181,7 +181,7 @@ theme = "hugo-elate-theme"
   content = ''
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
+  img = "img/references/soziale-innovation-publikation.jpg"
   
    [[params.intro.item]]
   col_size = "col-8"
@@ -192,18 +192,8 @@ theme = "hugo-elate-theme"
   content = '<p>Als Folgeauftrag des Buchs &bdquo;Architekturgeschichten CS Uetlihof&ldquo; durften wir das Jahrbuch 2012 f&uuml;r die <u><a href="http://www.stuecheli.ch/">St&uuml;cheli Architekten AG</a></u> gestalten und produzieren.</p><p>Das Buch ist in drei Teile eingeteilt. Im ersten Teil werden die fertiggestellten Bauten pr&auml;sentiert, der zweite Teil thematisiert die laufenden Projekte und der Dritte dokumentiert die Wettbewerbe, an denen die St&uuml;cheli Architekten AG teilgenommen hat und teilweise f&uuml;r sich entscheiden konnte. Das Buch hat einen stilvollen Umschlag, besticht mit lesefreundlichen Texten und sch&ouml;nen Fotos.</p>'
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
+  img = "img/references/stuecheli-architekten-jahrbuch.jpg"
 
-   [[params.intro.item]]
-  col_size = "col-7"
-  categorie = "Grafik / Produktion"
-  title = "Jahrbuch Stücheli Architekten AG"
-  description = ""
-  content_url = "jahrbuchstuecheli"
-  content = '<p>Als Folgeauftrag des Buchs &bdquo;Architekturgeschichten CS Uetlihof&ldquo; durften wir das Jahrbuch 2012 f&uuml;r die <u><a href="http://www.stuecheli.ch/">St&uuml;cheli Architekten AG</a></u> gestalten und produzieren.</p><p>Das Buch ist in drei Teile eingeteilt. Im ersten Teil werden die fertiggestellten Bauten pr&auml;sentiert, der zweite Teil thematisiert die laufenden Projekte und der Dritte dokumentiert die Wettbewerbe, an denen die St&uuml;cheli Architekten AG teilgenommen hat und teilweise f&uuml;r sich entscheiden konnte. Das Buch hat einen stilvollen Umschlag, besticht mit lesefreundlichen Texten und sch&ouml;nen Fotos.</p>'
-  button = "Get In Touch"
-  icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
    
    [[params.intro.item]]
   col_size = "col-6"
@@ -214,7 +204,7 @@ theme = "hugo-elate-theme"
   content = ''
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
+  img = "img/references/wuethrich-kies-grafik.jpg"
   
    [[params.intro.item]]
   col_size = "col-5"
@@ -225,7 +215,7 @@ theme = "hugo-elate-theme"
   content = ''
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
+  img = "img/references/garage-hofmann-werbeartikel.jpg"
    
    [[params.intro.item]]
   col_size = "col-4"
@@ -236,7 +226,7 @@ theme = "hugo-elate-theme"
   content = ''
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/57_slider_grafik.jpg"
+  img = "img/references/usbsticks.jpg"
   
    [[params.intro.item]]
   col_size = "col-3"
@@ -247,7 +237,7 @@ theme = "hugo-elate-theme"
   content = '<img src="img/references/40_slider_market_grafik.jpg" /><p><strong>Er&ouml;ffnung der Trouvaille der Bijoux Stadelmann AG</strong></p><p>Die Trouvaille der&nbsp;<a href="https://www.bijouxstadelmann.ch/" target="_blank">Bijoux Stadelmann AG</a> erstrahlt im neuen Kleid. Wir durften den Einweihungsevent f&uuml;r geladene G&auml;sten organisieren.<br />Daf&uuml;r wurde das Rathausg&auml;ssli f&uuml;r einen Abend zum Catwalk umgewandelt. Drei Models pr&auml;sentierten darauf den Besuchern exklusive Schmuckst&uuml;cke. Im Anschluss konnten die G&auml;ste die Trouvaille besichtigen. Nat&uuml;rlich gab es dazu ein ausgiebiges Ap&eacute;ro.<br />Wir zeichneten uns f&uuml;r die gesamte Konzeption und Realisation zust&auml;ndig.<br />Wir bedanken uns herzlich bei der <a href="https://www.bijouxstadelmann.ch/" target="_blank">Bijoux Stadelmann AG</a> f&uuml;r das Vertrauen und w&uuml;nschen viel Freude mit der neuen Trouvaille!</p>'
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/40_slider_market_grafik.jpg"
+  img = "img/references/bijoux-stadelmann-event.jpg"
   
    [[params.intro.item]]
   col_size = "col-2"
@@ -258,7 +248,7 @@ theme = "hugo-elate-theme"
   content = '<p><strong>&laquo;Award f&uuml;r Marketing + Architektur&raquo;</strong></p><p>Alle zwei Jahre findet im <a href="https://www.kkl-luzern.ch/" target="_blank">KKL Luzern</a> der &laquo;Award f&uuml;r Marketing + Architektur&raquo; statt. Dieser Anlass ist eine Eigenproduktion der Baukoma-Marketimpact AG und wurde 2008 zum ersten Mal ausgetragen. Mittlerweile hat sich der &laquo;Award f&uuml;r Marketing + Architektur&raquo; zum gr&ouml;ssten Event in der Schweizer Architekturbranche entwickelt und geniesst ebenso Bekanntheit im benachbarten deutschsprachigen Europa. Ausgezeichnet werden Firmen, Institutionen, Architekten, und Bauherren, welche die Architektur als Marketinginstrument hochwertig und sinnvoll einsetzen.&nbsp;</p><p>Nach dem Award ist jeweils vor dem Award, dauert der Vorlauf einer Preisverleihung doch jeweils rund 2 Jahre. Sponsorensuche- und Betreuung, Ausschreibung, Wettbewerbsphase, Eingabenaufbereitung, Drucksachen (darunter ein rund 80-seitiges Programmheft), Drehbuch, Showclips, Ticketing und vieles mehr geh&ouml;ren hier zu unseren Aufgaben.&nbsp;<br /></p>'
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/40_slider_market_grafik.jpg"
+  img = "img/references/award-marketing-architektur.jpg"
   
    [[params.intro.item]]
   col_size = "col-1"
@@ -269,7 +259,7 @@ theme = "hugo-elate-theme"
   content = '<p><strong>b2berne KMU-Day 2018 &ndash; Jetzt anmelden!</strong></p><p>Geringe Kosten, grosser Nutzen, einmaliges Potential &ndash; pr&auml;sentieren und profitieren! Melden Sie sich jetzt an f&uuml;r den b2berne KMU-Day vom 13. November 2018.</p><p>Mehr unter <a href="http://www.b2berne.ch" target="_blank">www.b2berne.ch</a>!</p>'
   button = "Get In Touch"
   icon = "icon-bulb"
-  img = "img/references/40_slider_market_grafik.jpg"
+  img = "img/references/Logo_b2berne_KMU_cmyk.png"
   
   
   [params.intro.new_layout]
