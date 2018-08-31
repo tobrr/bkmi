@@ -33,7 +33,7 @@
 #fh5co-home .text-inner h1 {
     font-size: 50px;
     color: white;
-    margin: -230px 0px 0 -18px;
+    margin: -230px 0px 0 0px;
 }
 
 
@@ -42,14 +42,14 @@
 
 .logo .bkmi {
     background-color: white;
-    width: 9em;
-    padding: 1.3em 0em;
+    padding: 1.3em 4em;
     margin: 0 auto;
 }
 
 
 .logo .bkmi img {
-    width: 200px;
+    width: 100%;
+    
 }
 
 
@@ -91,14 +91,15 @@
 }
 
 #fh5co-intro .intro-items .popup-modal p {
-    bottom: 2em;
-    position: absolute;
+    /* bottom: 2em; */
+    /* position: absolute; */
+    margin: 0;
 }
 
 #fh5co-intro .intro-items .popup-modal h3 {
     color: white;
-    bottom: 0;
-    position: absolute;
+    /*bottom: 0;*/
+    /*position: absolute;*/
 }
 
 
@@ -140,6 +141,12 @@
     cursor: pointer;
     color: white;
 }
+
+.overlay .fh5co-text {
+    position: absolute;
+    bottom: 0;
+}
+
 
 #fh5co-intro .intro-items .overlay h2 {
     /*color:#f8b801;*/
@@ -214,6 +221,7 @@ section#fh5co-services {
     padding: 1em;
 }
 
+
 .fh5co-person {
     border: 2px solid #f2f2f2;
     padding: 80px 30px 30px 30px;
@@ -221,7 +229,9 @@ section#fh5co-services {
     width: 100%;
     position: relative;
     margin: 0 0 72px 0;
+    height: 455px;
 }
+
 
 /*.fh5co-person .social {*/
 /*    padding: 0;*/

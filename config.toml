@@ -24,9 +24,9 @@ theme = "hugo-elate-theme"
   #-----------------------------------------------------------------------------------------------------#
   # Hero section
   [params.hero]
-  title = '<div class="bkmi"><img src="img/bmAG_RGB.svg" ></div>'
+  title = '<div class="bkmi"><img src="img/Logo_bmAG_RGB.png" ></div>'
   subtitle = ""
-  background = 'img/walledge.jpg'
+  background = 'img/backgroundbulp.jpg'
   
   [params.hero.stripe]
   enable = false
@@ -276,21 +276,15 @@ theme = "hugo-elate-theme"
   
   #-----------------------------------------------------------------------------------------------------#
   # Services section
-  [[params.services.item]]
-  title = "Events"
-  description = "Firmenjubiläen, Tage der offenen Türen, Generalversammlungen oder andere Veranstaltungen. Wir begleiten Sie nach Ihren individuellen Wünschen und unter Berücksichtigung des Budgets."      
-  icon = "icon-rocket"    
-  
   [params.services]
   enable = true
   title = "Unsere Dienstleistungen"
   description = "Bei uns stehen Kreativität, Fachwissen und Effizienz an erster Stelle. Zusammen sind wir ein Team und verfolgen ein Ziel, nämlich erfolgreich zu sein. Wir arbeiten als Fullservice-Agentur oder begleiten Sie modular in den von Ihnen gewünschten Bereichen."
   
-
   [[params.services.item]]
-  title = "Strategie und Branding"
-  description = "Modernes Kommunikationsdesign beinhaltet verschiedene Bereiche, wie beispielsweise das traditionelle Grafikdesign, Web-Konzepte bis hin zu den sozialen Medien."
-  icon = "icon-compass"
+  title = "Events"
+  description = "Firmenjubiläen, Tage der offenen Türen, Generalversammlungen oder andere Veranstaltungen. Wir begleiten Sie nach Ihren individuellen Wünschen und unter Berücksichtigung des Budgets."      
+  icon = "icon-rocket"    
   
   [[params.services.item]]
   title = "Consulting"
@@ -298,9 +292,26 @@ theme = "hugo-elate-theme"
   icon = "icon-stethoscope"
   
   [[params.services.item]]
-  title = "Marketing"
-  description = "Ein wirkungsvolles Marketing und die zielgruppenorientierte Kommunikation können nicht standardisiert werden. Wir analysieren zusammen Ihre individuelle Situation, strukturieren und erarbeiten die Ziele und setzen diese mit Ihnen um."      
-  icon = "icon-heart"
+  title = "Marketingberatung"
+  description = "Jedes Unternehmen befindet sich irgendwo auf der Erfolgsleiter. Wer noch weit unten ist, möchte Massnahmen ergreifen um auf die nächste Stufe aufzusteigen, wer weit oben ist, will darum kämpfen um auf diesem Level zu bleiben. Wir analysieren und entwickeln zusammen mit unseren Kunden die richtigen Strategien dafür."      
+  icon = "icon-rocket"
+
+  [[params.services.item]]
+  title = "Workwear"
+  description = "Was in einer Sportmannschaft das Trikot ist, ist in der Arbeitswelt das T-Shirt, das Business-Hemd oder die Arbeitsjacke. Tragen Sie Ihre Firma nach aussen, treten Sie sichtbar als Team auf! Wir besticken und bedrucken die Textilien und lassen Sie darin noch besser aussehen."      
+  icon = "icon-rocket"
+  
+
+  # [[params.services.item]]
+  # title = "Strategie und Branding"
+  # description = "Modernes Kommunikationsdesign beinhaltet verschiedene Bereiche, wie beispielsweise das traditionelle Grafikdesign, Web-Konzepte bis hin zu den sozialen Medien."
+  # icon = "icon-compass"
+  
+  
+  # [[params.services.item]]
+  # title = "Marketing"
+  # description = "Ein wirkungsvolles Marketing und die zielgruppenorientierte Kommunikation können nicht standardisiert werden. Wir analysieren zusammen Ihre individuelle Situation, strukturieren und erarbeiten die Ziele und setzen diese mit Ihnen um."      
+  # icon = "icon-heart"
   
   [[params.services.item]]
   title = "Produktion / Werbeartikel"
@@ -322,22 +333,12 @@ theme = "hugo-elate-theme"
   description = "In unserem Atelier stellen wir sicher, dass Ihr Auftritt harmonisch, umfassend und als Einheit konzipiert und umgesetzt wird."      
   icon = "icon-magic"
 
-  [[params.services.item]]
-  title = "Workwear"
-  description = "Was in einer Sportmannschaft das Trikot ist, ist in der Arbeitswelt das T-Shirt, das Business-Hemd oder die Arbeitsjacke. Tragen Sie Ihre Firma nach aussen, treten Sie sichtbar als Team auf! Wir besticken und bedrucken die Textilien und lassen Sie darin noch besser aussehen."      
-  icon = "icon-shirt"
-  
-  [[params.services.item]]
-  title = "Marketingberatung"
-  description = "Jedes Unternehmen befindet sich irgendwo auf der Erfolgsleiter. Wer noch weit unten ist, möchte Massnahmen ergreifen um auf die nächste Stufe aufzusteigen, wer weit oben ist, will darum kämpfen um auf diesem Level zu bleiben. Wir analysieren und entwickeln zusammen mit unseren Kunden die richtigen Strategien dafür."      
-  icon = "icon-shirt"
 
-  
   #-----------------------------------------------------------------------------------------------------#
   # About section
   [params.about]
   enable = true
-  title = "Das Team"
+  title = "Unser Team"
   description = "Die Baukoma-Marketimpact AG versteht sich als Generalunternehmer in der Welt des Marketings und der Kommunikation. Mit Spezialisten in allen Bereichen sind wir Ihr idealer Partner für eine langfristige und nachhaltige Zusammenarbeit. Auch bei aussergewöhnlichen Projekten können wir Sie dank unserem grossen Netzwerk an ausgewiesenen Partnern ideal begleiten. Wir haben uns zum Ziel gesetzt, Sie persönlich und professionell in der Umsetzung Ihrer Aufgaben zu unterstützen."
   
   [[params.about.item]]
@@ -399,10 +400,33 @@ theme = "hugo-elate-theme"
   footertext = ""
   
   [[params.work.row]]
-  img = "work_1.jpg"
+  img = "img/16_slider_news_dienst.jpg"
+  alt = "Wir Feiern Uns!"
+  title = "1. Sep 2018"
+  subtitle = "Wir sind eins!"
+  
+  [[params.work.row]]
+  img = "img/b2berne-jetztanmelden.png"
   alt = "Image2"
-  title = "22. Juni 2017"
+  title = "1. Sep 2018"
   subtitle = "Die mobile Fussgängerbrücke zum Jet d'Eau gewinnt Building-Award 2017"
+  
+  
+    
+  #-----------------------------------------------------------------------------------------------------#
+  # Contact section
+  [params.organizer]
+  enable = true
+  title = "Wir sind Veranstallter von"
+  description = ""
+  
+    [[params.organizer.event]]
+    link = "//www.marketingarchitektur.ch"
+    img-url = "img/events/AfMA.png"
+    
+    [[params.organizer.event2]]
+    link = "//www.b2berne.ch"
+    img-url = "Logo_b2berne_KMU_cmyk.png"
   
   #-----------------------------------------------------------------------------------------------------#
   # Contact section

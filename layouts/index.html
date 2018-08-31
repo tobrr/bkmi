@@ -38,6 +38,9 @@
         	{{ partial "counters.html" .}}
         {{ end }}
 
+        {{ partial "organizer.html" .}}
+
+
 		{{ if .Site.Params.contact.enable }}
         	{{ partial "contact.html" .}}
         {{ end }}
