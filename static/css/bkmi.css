@@ -87,6 +87,18 @@
 #fh5co-intro .intro-items .popup-modal {
     width: 100%;
     background-size: cover;
+    background-position: left;
+}
+
+#fh5co-intro .intro-items .popup-modal p {
+    bottom: 2em;
+    position: absolute;
+}
+
+#fh5co-intro .intro-items .popup-modal h3 {
+    color: white;
+    bottom: 0;
+    position: absolute;
 }
 
 
@@ -102,9 +114,6 @@
 #fh5co-intro .intro-items img {
     width: 100%;
 }
-
-
-
 
 
 #fh5co-intro .intro-items .overlay {
@@ -155,17 +164,29 @@
 }
 
 .white-popup-block {
-    background: #FFF;
-    padding: 20px 30px;
+    /* background: #FFF; */
+    /* padding: 20px 30px; */
     text-align: left;
-    max-width: 650px;
-    margin: 40px auto;
+    /* max-width: 650px; */
+    /* margin: 40px auto; */
     position: relative;
 }
 
 .white-popup-block img {
     width: 100%;
     margin: 15px 0 12px 0;
+}
+
+.white-popup-block .content-block {
+    padding: 4em 18em 4em 8em;
+    background: #FFF;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 0.8em;
+    line-height: 1.6em;
+}
+
+.white-popup-block .content-block p {
+    text-align: justify;
 }
 
 .intro-items>div {
