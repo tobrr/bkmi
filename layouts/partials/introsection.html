@@ -1,0 +1,35 @@
+<section id="fh5co-intro">
+	<div class="container">
+		<div class="col-md-12 section-heading text-center">
+			<h2 class="to-animate">{{ with .Site.Params.intro.title }}{{ . }}{{ end }}</h2>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 subtext to-animate">
+					<h3>{{ with .Site.Params.intro.description }}{{ . | markdownify }}{{ end }}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row row-bottom-padded-lg intro-items">
+		
+			<div class="col to-animate ">
+                {{ with .Site.GetPage "page" "references/ruvido.md" }}
+                    {{ partial "intro.html" .}}
+                {{ end }}
+            </div>
+            <div class="col to-animate ">
+                 {{ with .Site.GetPage "page" "references/building-award.md" }}
+                    {{ partial "intro.html" .}}
+                {{ end }}
+            </div>
+            <div class="col to-animate ">
+                 {{ with .Site.GetPage "page" "references/building-award2.md" }}
+                    {{ partial "intro.html" .}}
+                {{ end }}
+            </div>
+		
+		
+		</div>
+	
+		
+	
+	</div>
+</section>

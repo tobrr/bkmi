@@ -1,44 +1,9 @@
-<section id="fh5co-intro">
-	<div class="container">
-		<div class="col-md-12 section-heading text-center">
-			<h2 class="to-animate">{{ with .Site.Params.intro.title }}{{ . }}{{ end }}</h2>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 subtext to-animate">
-					<h3>{{ with .Site.Params.intro.description }}{{ . | markdownify }}{{ end }}</h3>
-				</div>
-			</div>
-		</div>
-		<div class="row row-bottom-padded-lg intro-items">
-			{{ range .Site.Params.intro.item }}
-				<div class="{{ .col_size }} to-animate ">
-					<a class="popup-modal " href="#{{ .content_url }}">
-						<span>{{ .categorie }}</span>
-						<img src="{{ .img }}" />
-						<div class="overlay">
-							<div class="fh5co-text">
-								<h2>{{ .title }}</h2>
-								<p>{{ .description }}</p>
-							</div>
-						</div>
-					</a>
-					<div id="{{ .content_url }}" class="white-popup-block mfp-hide">
-				        {{ .content | safeHTML }}
-					</div>
-				</div>
-			{{ end }}
-			
-			<span>
-				<h3>
-					UND JETZT 
-				</h3>
-			</span>
-			
-			{{ range first 30 .Data.Pages }}
-			    {{ if eq .Type "references"}}
-			    	<div class="{{ .Params.col_size }} to-animate ">
-						<a class="popup-modal " href="#{{ .Params.content_url }}">
+
+
+			    	
+						<a class="popup-modal " href="#{{ .Params.content_url }}" style="background-image:url('{{ .Params.img }}');">
 							<span>{{ .Params.categorie }}</span>
-							<img src="{{ .Params.img }}" />
+							
 							<div class="overlay">
 								<div class="fh5co-text">
 									<h2>{{ .Params.title }}</h2>
@@ -47,23 +12,7 @@
 							</div>
 						</a>
 						<div id="{{ .Params.content_url }}" class="white-popup-block mfp-hide">
-							{{ .Params.content  }}
+							{{ .Content   }}
 						</div>
-					</div>
-   				{{ end }}
-			{{ end }}
-		
-		</div>
-	
-		
-		{{ if .Site.Params.intro.video.enable }}
-			<div class="row watch-video text-center to-animate">
-				<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
-				<span>{{.Site.Params.intro.video.title | markdownify }}</span>
-				<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video">
-					<i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i>
-				</a>
-			</div>
-		{{ end }}
-	</div>
-</section>
+			
+

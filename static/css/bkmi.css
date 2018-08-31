@@ -75,12 +75,17 @@
     background: white;
 }
 
+
 #fh5co-intro .intro-items>div {
     display: flex;
-    align-items: flex-end;
-    background: white;
-    /*border: solid #eee 2px;*/
     margin: 3px;
+    height: 9em;
+}
+
+
+#fh5co-intro .intro-items .popup-modal {
+    width: 100%;
+    background-size: cover;
 }
 
 
