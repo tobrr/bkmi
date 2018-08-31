@@ -73,13 +73,14 @@
 
 #fh5co-intro .intro-items {
     background: white;
+    
 }
 
 
 #fh5co-intro .intro-items>div {
     display: flex;
     margin: 3px;
-    height: 9em;
+    height: 11em;
 }
 
 
@@ -92,6 +93,7 @@
 #fh5co-intro .container .row.intro-items {
     width: 100%;
     margin: 0px 0px 0 0px;
+    padding-bottom: 0px;
  
 }
 

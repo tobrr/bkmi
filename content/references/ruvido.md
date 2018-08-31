@@ -1,7 +1,6 @@
 +++
-
   title = "RUVIDO – einfach stark!"
-col_size = "col-12 col-sm-4"
+ col_size = "col-12 col-sm-4"
   categorie = "Branding"
   description = "Eine umfassende Image- und Marketingkampagne von der Strategie bis zum Werbe-Truck."
   content_url = "ruvido"
@@ -10,5 +9,3 @@ col_size = "col-12 col-sm-4"
   icon = "icon-bulb"
   img = "img/references/ruvido.jpg"
 +++
-
-<!--more-->
