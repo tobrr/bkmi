@@ -9,3 +9,8 @@
   icon = "icon-bulb"
   img = "img/references/Logo_b2berne_KMU_cmyk.png"
 +++
+<p><strong>b2berne KMU-Day 2018 &ndash; Jetzt anmelden!</strong></p>
+
+<p>Geringe Kosten, grosser Nutzen, einmaliges Potential &ndash; pr&auml;sentieren und profitieren! Melden Sie sich jetzt an f&uuml;r den b2berne KMU-Day vom 13. November 2018.</p>
+
+<p>Mehr unter <a href="http://www.b2berne.ch" target="_blank">www.b2berne.ch</a>!</p>

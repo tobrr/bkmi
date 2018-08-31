@@ -1,16 +1,21 @@
 <section id="fh5co-intro">
 	<div class="container">
 		<div class="col-md-12 section-heading text-center">
-			<h2 class="to-animate-no">{{ with .Site.Params.intro.title }}{{ . }}{{ end }}</h2>
+			<h2 class="to-animate">{{ with .Site.Params.intro.title }}{{ . }}{{ end }}</h2>
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 subtext to-animate-no">
+				<div class="col-md-8 col-md-offset-2 subtext to-animate">
 					<h3>{{ with .Site.Params.intro.description }}{{ . | markdownify }}{{ end }}</h3>
 				</div>
 			</div>
 		</div>
 		
 		<div class="row row-bottom-padded-lg intro-items">
-			<div class="col to-animate-no ">
+		    <div class="col to-animate ">
+                {{ with .Site.GetPage "page" "references/stuecheli-architekten-jahrbuch.md" }}
+                    {{ partial "intro.html" .}}
+                {{ end }}
+            </div>
+			<div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/ruvido.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
@@ -18,30 +23,26 @@
 		</div>
 		 					 
 		<div class="row row-bottom-padded-lg intro-items">
-            <div class="col to-animate-no ">
+            <div class="col to-animate b2berne">
                 {{ with .Site.GetPage "page" "references/b2berne.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
-			<div class="col to-animate-no ">
+			<div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/award-marketing-architektur.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
-            <div class="col to-animate-no ">
-                {{ with .Site.GetPage "page" "references/wuethrich-kies-grafik.md" }}
-                    {{ partial "intro.html" .}}
-                {{ end }}
-            </div>
+           
 		</div>
 		
 		<div class="row row-bottom-padded-lg intro-items">
-			<div class="col to-animate-no ">
+			<div class="col to-animate ">
 				{{ with .Site.GetPage "page" "references/grafikdesign.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
 			</div>
-           	<div class="col-8 to-animate-no ">
+           	<div class="col-8 to-animate ">
                 {{ with .Site.GetPage "page" "references/o-maeder-einladung.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
@@ -49,12 +50,12 @@
 		</div>
 		
 		<div class="row row-bottom-padded-lg intro-items">
-            <div class="col to-animate-no ">
+            <div class="col to-animate ">
 				{{ with .Site.GetPage "page" "references/contria-workware.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
 			</div>
-            <div class="col to-animate-no ">
+            <div class="col to-animate ">
                  {{ with .Site.GetPage "page" "references/building-award.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
@@ -62,18 +63,18 @@
 		</div>
 		
 		<div class="row row-bottom-padded-lg intro-items">
-			<div class="col to-animate-no ">
+			<div class="col to-animate ">
 				{{ with .Site.GetPage "page" "references/professionell-werben.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
 			</div>
-			<div class="col to-animate-no ">
+			<div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/praxis-fuer-entspannung-postcard.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
 
-			<div class="col to-animate-no ">
+			<div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/lebana-workware.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
@@ -82,12 +83,12 @@
 		</div>
 		
 		<div class="row row-bottom-padded-lg intro-items">
-			<div class="col to-animate-no ">
-                {{ with .Site.GetPage "page" "references/praxis-fuer-entspannung-workware.md" }}
+		    <div class="col to-animate ">
+                {{ with .Site.GetPage "page" "references/bijoux-stadelmann-inserat.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
-            <div class="col-7 to-animate-no ">
+            <div class="col-5 to-animate ">
                 {{ with .Site.GetPage "page" "references/building-award2.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
@@ -95,17 +96,18 @@
 		</div>
 	
 		<div class="row row-bottom-padded-lg intro-items">
-			<div class="col to-animate-no ">
-                {{ with .Site.GetPage "page" "references/bijoux-stadelmann-inserat.md" }}
+			
+            	<div class="col to-animate ">
+                {{ with .Site.GetPage "page" "references/praxis-fuer-entspannung-workware.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
-            <div class="col to-animate-no ">
+            <div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/swiss-sales-einladung.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
-			<div class="col to-animate-no ">
+			<div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/soziale-innovation-publikation.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
@@ -113,31 +115,28 @@
 		</div>
 		
 		<div class="row row-bottom-padded-lg intro-items">
-			<div class="col to-animate-no ">
-                {{ with .Site.GetPage "page" "references/stuecheli-architekten-jahrbuch.md" }}
-                    {{ partial "intro.html" .}}
-                {{ end }}
-            </div>
-            <div class="col to-animate-no ">
+	       <div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/wuethrich-kies-grafik.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
-		</div>
-		
-		
-		<div class="row row-bottom-padded-lg intro-items">
-			<div class="col to-animate-no ">
+            <div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/garage-hofmann-werbeartikel.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
-            <div class="col to-animate-no ">
+
+		</div>
+		
+		
+		<div class="row row-bottom-padded-lg intro-items">
+
+            <div class="col to-animate ">
                 {{ with .Site.GetPage "page" "references/usbsticks.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}
             </div>
-            <div class="col to-animate-no ">
+            <div class="col-8 to-animate ">
                 {{ with .Site.GetPage "page" "references/bijoux-stadelmann-event.md" }}
                     {{ partial "intro.html" .}}
                 {{ end }}

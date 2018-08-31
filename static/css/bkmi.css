@@ -41,15 +41,16 @@
 
 
 .logo .bkmi {
-    background-color: white;
-    padding: 1.3em 4em;
-    margin: 0 auto;
+    background-color: #ffffffb0;
+    /* padding: 1.3em 4em; */
+    width: 100%;
 }
 
 
 .logo .bkmi img {
-    width: 100%;
-    
+    width: 80%;
+    padding: 1em 0em;
+    max-width: 586px;
 }
 
 
@@ -110,6 +111,13 @@
  
 }
 
+
+
+.b2berne .popup-modal {
+    background-size: 90%!important;
+    background-repeat: no-repeat;
+    background-position-x: 17px!important;
+}
 
 
 #fh5co-intro .intro-items img {
@@ -181,7 +189,7 @@
 
 .white-popup-block img {
     width: 100%;
-    margin: 15px 0 12px 0;
+    margin:  0;
 }
 
 .white-popup-block .content-block {
@@ -194,6 +202,10 @@
 
 .white-popup-block .content-block p {
     text-align: justify;
+}
+
+.white-popup-block .title-only {
+    font-size: 1.6em;
 }
 
 .intro-items>div {

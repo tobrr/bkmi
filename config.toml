@@ -294,12 +294,12 @@ theme = "hugo-elate-theme"
   [[params.services.item]]
   title = "Marketingberatung"
   description = "Jedes Unternehmen befindet sich irgendwo auf der Erfolgsleiter. Wer noch weit unten ist, möchte Massnahmen ergreifen um auf die nächste Stufe aufzusteigen, wer weit oben ist, will darum kämpfen um auf diesem Level zu bleiben. Wir analysieren und entwickeln zusammen mit unseren Kunden die richtigen Strategien dafür."      
-  icon = "icon-rocket"
+  icon = "icon-road"
 
   [[params.services.item]]
   title = "Workwear"
   description = "Was in einer Sportmannschaft das Trikot ist, ist in der Arbeitswelt das T-Shirt, das Business-Hemd oder die Arbeitsjacke. Tragen Sie Ihre Firma nach aussen, treten Sie sichtbar als Team auf! Wir besticken und bedrucken die Textilien und lassen Sie darin noch besser aussehen."      
-  icon = "icon-rocket"
+  icon = "icon-user-md"
   
 
   # [[params.services.item]]
@@ -394,7 +394,7 @@ theme = "hugo-elate-theme"
   #-----------------------------------------------------------------------------------------------------#
   # Work section
   [params.work]
-  enable = true
+  enable = false
   title = "News"
   description = ""
   footertext = ""
@@ -416,7 +416,7 @@ theme = "hugo-elate-theme"
   #-----------------------------------------------------------------------------------------------------#
   # Contact section
   [params.organizer]
-  enable = true
+  enable = false
   title = "Wir sind Veranstallter von"
   description = ""
   
@@ -435,7 +435,7 @@ theme = "hugo-elate-theme"
   google_iframe_map = true
   google_iframe_embedcode = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43384.34006453065!2d7.539632807656666!3d47.186809262625395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e140c6995ba39%3A0x82b1e8190e45d8!2sBaukoma+AG!5e0!3m2!1sde!2sch!4v1535377108097" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>'
   google_api_map = false
-  form = true
+  form = false
   title = "Kontaktieren Sie uns"
   description = "Wir haben immer ein offenes Ohr und gute Ideen. Wir freuen uns auf Ihren Anruf, eine Nachricht und noch mehr über Ihren Besuch."
   # Available icons: http://simplelineicons.com/
