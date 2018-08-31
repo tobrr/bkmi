@@ -1,7 +1,7 @@
 +++
   categorie = "Textilien / Workwear"
   col_size = "col-4"
-  title = "Kleidung für Praxis für Entspannung"
+  title = 'Diverse Bekleidungen für die "Praxis für Entspannung"'
   description = ""
   content_url = "kleidungpraxisentspannung"
   content = ''

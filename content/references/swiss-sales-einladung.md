@@ -1,5 +1,5 @@
 +++
-  title = "Einladungen zur Eventreihe SWISS SALES network"
+  title = "Einladungskarten zur Eventreihe SWISS SALES network"
   col_size = "col-10"
   categorie = "Grafik / Produktion"
   description = ""

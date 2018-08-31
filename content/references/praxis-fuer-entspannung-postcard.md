@@ -1,5 +1,5 @@
 +++
-  title = "Postkarten für Praxis für Entspannung"
+  title = 'Postkarten für die "Praxis für Entspannung"'
   col_size = "col-4"
   categorie = "Grafik / Produktion"
   description = ""

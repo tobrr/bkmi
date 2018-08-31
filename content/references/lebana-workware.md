@@ -1,7 +1,7 @@
 +++
   col_size = "col-4"
   categorie = "Textilien / Workwear"
-  title = "T-Shirts für LEBANA GmbH"
+  title = "T-Shirts für die LEBANA GmbH"
   description = ""
   content_url = "tshirtslebana"
   content = ''

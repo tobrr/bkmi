@@ -13,7 +13,7 @@
 		<div class="col-10 ">
 			<img src="{{ .Params.img }}" />
 			<div class="content-block">
-				{{with .Params.content}} {{ . | safeHTML }} {{end}}
+				{{with .Content}} {{ . | safeHTML }} {{end}}
 			</div>
 		</div>
 	</div>

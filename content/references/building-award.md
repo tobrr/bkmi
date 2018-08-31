@@ -11,10 +11,8 @@
   img = "img/references/buildingaward2.jpg"
 +++
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+<p><strong>Building-Award &ndash; Die Auszeichnung f&uuml;r den Ingenieur am Bau</strong></p>
 
-Building-Award ddd – Die Auszeichnung für den Ingenieur am Bau
+<p>Der Building-Award wird alle zwei Jahre ausgetragen, 2019 zum dritten Mal. Bewertet und ausgezeichnet werde herausragende, besonders bemerkenswerte und innovative Ingenieursleistungen am Bau. Rund 800 G&auml;ste werden am 6. Juni 2019 im KKL erwartet, wenn die grosse Preisverleihung stattfindet.</p>
 
-Der Building-Award wird alle zwei Jahre ausgetragen, 2019 zum dritten Mal. Bewertet und ausgezeichnet werde herausragende, besonders bemerkenswerte und innovative Ingenieursleistungen am Bau. Rund 800 Gäste werden am 6. Juni 2019 im KKL erwartet, wenn die grosse Preisverleihung stattfindet.
-
-Im Auftrag der Stiftung bilding sind wir für die komplette Organisation zuständig. Die Preisverleihung selber ist nur ein kleiner Teil. Rund 2 Jahre dauert die Vorlaufzeit. Sponsorensuche- und Betreuung, Ausschreibung, Wettbewerbsphase, Eingabenaufbereitung, Drucksachen (darunter ein rund 80-seitiges Programmheft), Drehbuch, Showclips, Ticketing und vieles mehr gehören zu unseren Aufgaben.
+<p>Im Auftrag der Stiftung bild<em>ing&nbsp;</em>und den&nbsp;Tr&auml;gerverb&auml;nden&nbsp;usic, Schweizerischer Baumeisterverband und infra suisse&nbsp;sind wir f&uuml;r die gesamte Konzeption und Realisation zust&auml;ndig.&nbsp;Die Preisverleihung selber ist nur ein kleiner Teil. Rund 2 Jahre dauert die Vorlaufzeit. Sponsorensuche- und Betreuung, Ausschreibung, Wettbewerbsphase, Eingabenaufbereitung, Jurykoordination,&nbsp;Drucksachen (darunter ein rund 80-seitiges Programmheft), Drehbuch, K&uuml;nstler-Engagement und Verpflichtung der Moderatorin,&nbsp;Showclips, Ticketing und vieles mehr geh&ouml;ren zu unseren Aufgaben.</p>

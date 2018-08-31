@@ -1,5 +1,5 @@
 +++
-  title = "Publikation Soziale Innovation"
+  title = "Publikation Soziale Innovation für die Fachhochschule Nordwestschweiz"
   col_size = "col-9"
   categorie = "Grafik"
   description = ""

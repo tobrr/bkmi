@@ -1,7 +1,7 @@
 +++
 col_size = "col-4"
   categorie = "Textilien / Workwear"
-  title = "Jacken und Hemden für Contria GmbH"
+  title = "Jacken und Hemden für die Contria GmbH"
   description = ""
   content_url = "jackenhemdencontria"
   content = ''

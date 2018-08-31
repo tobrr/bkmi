@@ -304,11 +304,11 @@ theme = "hugo-elate-theme"
   
   [[params.services.item]]
   title = "Produktion / Werbeartikel"
-  description = "Ob Drucksachen, Buchproduktionen, Werbetechnik, Werbeartikel oder vielem mehr: wir arbeiten mit auserwählten Partnern zusammen, gestalten, koordinieren Termine und garantieren so höchste Ansprüche."      
+  description = "Ob Drucksachen, Buchproduktionen, Werbetechnik, Werbeartikel oder vielem mehr: wir arbeiten als Fullservice-Agentur mit auserwählten Partnern zusammen, gestalten, koordinieren Termine und garantieren so höchste Qualität."      
   icon = "icon-diamond"
   
   [[params.services.item]]
-  title = "Web.etc"
+  title = "Web"
   description = "Die Zufriedenheit unserer Kundinnen und unserer Kunden steht stets im Mittelpunkt bei unserem Tun. Egal ob Website oder Mobile-App, Social-Media Kampagne oder Online-Game, wir begleiten Sie effizient und mit Begeisterung auf ihrem Weg durch die digitalen Möglichkeiten."      
   icon = "icon-hand-pointer-o"
   
@@ -324,7 +324,12 @@ theme = "hugo-elate-theme"
 
   [[params.services.item]]
   title = "Workwear"
-  description = "Was in einer Sportmannschaft das Trikot ist, ist in der Arbeitswelt das T-Shirt, das Business-Hemd oder die Arbeitsjacke. Tragen Sie Ihre Firma nach aussen, treten Sie sichtbar als Team auf!"      
+  description = "Was in einer Sportmannschaft das Trikot ist, ist in der Arbeitswelt das T-Shirt, das Business-Hemd oder die Arbeitsjacke. Tragen Sie Ihre Firma nach aussen, treten Sie sichtbar als Team auf! Wir besticken und bedrucken die Textilien und lassen Sie darin noch besser aussehen."      
+  icon = "icon-shirt"
+  
+  [[params.services.item]]
+  title = "Marketingberatung"
+  description = "Jedes Unternehmen befindet sich irgendwo auf der Erfolgsleiter. Wer noch weit unten ist, möchte Massnahmen ergreifen um auf die nächste Stufe aufzusteigen, wer weit oben ist, will darum kämpfen um auf diesem Level zu bleiben. Wir analysieren und entwickeln zusammen mit unseren Kunden die richtigen Strategien dafür."      
   icon = "icon-shirt"
 
   
