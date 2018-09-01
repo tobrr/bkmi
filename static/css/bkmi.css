@@ -205,16 +205,6 @@
     text-align: left;
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media(min-width: 991.98px )  { 
-    .white-popup-block .content-block {
-        padding: 4em 18em 4em 8em;
-        font-size: 0.8em;
-        line-height: 1.6em;
-        text-align: justify;
-    } 
-    
-}
 
 
 
@@ -223,9 +213,9 @@
 }
 
 
-section#fh5co-services {
+#fh5co-services {
     background: url(/img/slider-bg.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -285,3 +275,17 @@ section#fh5co-services {
 }
 
 
+
+/* Large devices (large desktops, 1200px and up) */
+@media(min-width: 991.98px )  { 
+    .white-popup-block .content-block {
+        padding: 4em 18em 1em 8em;
+        font-size: 0.8em;
+        line-height: 1.6em;
+        text-align: justify;
+    } 
+    
+        
+   
+    
+}
