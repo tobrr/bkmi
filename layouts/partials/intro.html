@@ -8,20 +8,16 @@
 		</div>
 	</div>
 </a>
-	<div class="row">
-		<div class="col-10 ">
-			<div id="{{ .Params.content_url }}" class="white-popup-block mfp-hide container">	
-				<img src="{{ .Params.img }}" />
-				<div class="content-block">
-					{{ if (not (isset .Params "content")) | or (eq .Params.content "") }}
+<div id="{{ .Params.content_url }}" class="white-popup-block mfp-hide container">	
+			<img src="{{ .Params.img }}" />
+			<div class="content-block">
+				{{ if (not (isset .Params "content")) | or (eq .Params.content "") }}
 					<div class="title-only">
 						<p><strong>{{ .Params.title }}</strong></p>
-						</div>
-					{{ else }}
-
+					</div>
+				{{ else }}
 					{{with .Content}} {{ . | safeHTML }} {{end}}
-					{{ end }}
-				</div>
-		</div>
-	</div>
+				{{ end }}
+			</div>
+
 </div>
