@@ -58,6 +58,7 @@
     background-image: url(/img/wallwood.jpg);
     position: relative;
     box-shadow: inset 0px 28px 58px -34px #fff0dd, 0px -16px 180px -17px antiquewhite;
+    overflow: hidden;
 }
 
 
@@ -80,7 +81,7 @@
 
 #fh5co-intro .intro-items>div {
     display: flex;
-    margin: 3px;
+    margin: 0 1px 1px 0;
     height: 15em;
 }
 
@@ -107,8 +108,8 @@
 #fh5co-intro .container .row.intro-items {
     width: 100%;
     margin: 0px 0px 0 0px;
-    padding-bottom: 0px;
- 
+    padding: 0 3px 0 3px;
+    overflow: hidden;
 }
 
 
@@ -132,7 +133,7 @@
     right: 0;
     left: 0;
     background-color: #000000ad;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+   
     /* background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #ea4f50), color-stop(1, #c5393a)); */
     /* background-image: -webkit-repeating-linear-gradient(top , #ea4f50cc 0%, #c5393a 100%); */
     /* background-image: repeating-linear-gradient(to bottom , #ffffff00 0%,#545454b3 25%, #525252 100%); */
@@ -185,7 +186,7 @@
     color: #333333;
     padding: 0;
     text-align: left;
-    /* max-width: 650px; */
+    max-width: 900px;
     /* margin: 40px auto; */
     position: relative;
 }

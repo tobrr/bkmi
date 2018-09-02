@@ -10,15 +10,28 @@ media_folder: "/static/upload" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "docs" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Docs" # Used in the UI, ie.: "New Post"
-    folder: "/content/docs" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Group", name: "group", widget: "string"}
-      - {label: "Weight", name: "weight", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "references"
+    label: "Referenzen"
+    folder: "/content/references"
+    create: true
+    fields:
+      -  {label: "Titel", name: "title", widget: "string" }
+      -  {label: "Col Size", name: "col_size", widget: "string" }
+      -  {label: "Kategorien", name: "categorie", widget: "string" }
+      -  {label: "Teasertext", name: "description", widget: "string" }
+      -  {label: "Content URL", name: "content_url", widget: "string" }
+      -  {label: "Content", name: "content", widget: "string" }
+      -  {label: "Button Text", name: "button", widget: "string" }
+      -  {label: "Bild URL", name: "img", widget: "string" }
+#   - name: "docs" # Used in routes, ie.: /admin/collections/:slug/edit
+#     label: "Docs" # Used in the UI, ie.: "New Post"
+#     folder: "/content/docs" # The path to the folder where the documents are stored
+#     create: true # Allow users to create new documents in this collection
+#     fields: # The fields each document in this collection have
+#       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+#       - {label: "Group", name: "group", widget: "string"}
+#       - {label: "Weight", name: "weight", widget: "number"}
+#       - {label: "Body", name: "body", widget: "markdown"}
   - name: "blog"
     label: "Blog"
     label_singular: "Post"
