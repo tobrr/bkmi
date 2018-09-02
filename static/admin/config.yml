@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: tobrr/bkmi
-  branch: master
+  branch: try_bkmi_bg
   squash_merges: true
 
 publish_mode: editorial_workflow
@@ -12,6 +12,7 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "references"
     label: "Referenzen"
+    label_singular: "Referenz"
     folder: "/content/references"
     create: true
     fields:
