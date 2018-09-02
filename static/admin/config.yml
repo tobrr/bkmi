@@ -19,9 +19,9 @@ collections: # A list of collections the CMS should be able to edit
       -  {label: "Titel", name: "title", widget: "string" }
       -  {label: "Col Size", name: "col_size", widget: "string" }
       -  {label: "Kategorien", name: "categorie", widget: "string" }
-      -  {label: "Teasertext", name: "description", widget: "string" }
+      -  {label: "Teasertext", name: "description", widget: "string", required: false }
       -  {label: "Content URL", name: "content_url", widget: "string" }
-      -  {label: "Content", name: "content", widget: "string" }
+      -  {label: "Content", name: "content", widget: "string", required: false }
       -  {label: "Button Text", name: "button", widget: "string" }
       -  {label: "Bild URL", name: "img", widget: "string" }
       -  {label: "Body", name: "body", widget: "markdown"}
