@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edit
       -  {label: "Content", name: "content", widget: "string" }
       -  {label: "Button Text", name: "button", widget: "string" }
       -  {label: "Bild URL", name: "img", widget: "string" }
-       - {label: "Body", name: "body", widget: "markdown"}
+      -  {label: "Body", name: "body", widget: "markdown"}
 #   - name: "docs" # Used in routes, ie.: /admin/collections/:slug/edit
 #     label: "Docs" # Used in the UI, ie.: "New Post"
 #     folder: "/content/docs" # The path to the folder where the documents are stored
