@@ -41,7 +41,7 @@
 
 
 .logo .bkmi {
-    background-color: #ffffffb0;
+    background-color: rgba(255, 255, 255, 0.6901960784313725);
     /* padding: 1.3em 4em; */
     width: 100%;
 }
@@ -132,8 +132,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #000000ad;
-   
+    background-color: rgba(0, 0, 0, 0.6784313725490196);
     /* background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #ea4f50), color-stop(1, #c5393a)); */
     /* background-image: -webkit-repeating-linear-gradient(top , #ea4f50cc 0%, #c5393a 100%); */
     /* background-image: repeating-linear-gradient(to bottom , #ffffff00 0%,#545454b3 25%, #525252 100%); */
@@ -150,6 +149,7 @@
     cursor: pointer;
     color: white;
 }
+
 
 .overlay .fh5co-text {
     position: absolute;
@@ -211,6 +211,7 @@
 
 .white-popup-block .title-only {
     font-size: 1.2em;
+    text-align: left;
 }
 
 

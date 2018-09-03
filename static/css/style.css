@@ -637,7 +637,7 @@ h1, h2, h3, h4, h5, h6 {
   /* background-image: -webkit-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%); */
   /* IE10+ */
   /* background-image: repeating-linear-gradient(to bottom right, #151454 0%, #ea4f50 100%); */
-  background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
+  /*background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);*/
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
