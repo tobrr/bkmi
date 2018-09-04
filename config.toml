@@ -29,7 +29,7 @@ theme = "hugo-elate-theme"
   background = 'img/backgroundbulp.jpg'
   
   [params.hero.stripe]
-  enable = false
+  enable = true
   
   #-----------------------------------------------------------------------------------------------------#
   # Intro section

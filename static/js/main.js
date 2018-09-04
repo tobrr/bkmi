@@ -18,7 +18,8 @@
 
 	// Parallax
 	var parallax = function() {
-		$(window).stellar();
+		$(window).stellar({ horizontalScrolling: false });
+		
 	};
 
 

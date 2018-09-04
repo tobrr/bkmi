@@ -1,14 +1,16 @@
 
 
 #fh5co-home {
-    /* background-color: transparent; */
-    background-size: cover;
-    background-attachment: fixed;
+      /* background-color: transparent; */
+    /* background-size: cover; */
+    background-position: center 0px; 
+    /*background-attachment: fixed;*/
     position: relative;
     width: 100%;
     /* background-color: #f8b801; */
     color: #fff;
     overflow: hidden;
+
 }
 
 /*#fh5co-home .gradient {*/
