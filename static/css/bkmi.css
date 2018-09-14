@@ -269,6 +269,11 @@
 /*    opacity: 1.0;*/
 /*}*/
 
+#fh5co-intro .col-12 {
+    
+    flex: 100%!important;
+}
+
 
 .col-md-8 {
     -ms-flex-preferred-size: 0;
