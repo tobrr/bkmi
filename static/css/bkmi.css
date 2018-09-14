@@ -302,3 +302,60 @@
 .white-popup-block .content-block strong {
     font-weight: bold;
 }
+
+#bkmi-campaign {
+   position: absolute;
+   margin: -430px 0 0px 0;
+   width: 100%;
+}
+
+#bkmi-campaign img {
+    width: 100%;
+}
+
+.campaign h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 7px 0;
+    text-decoration: underline;
+}
+
+.sticky {
+  position: absolute;
+  right: 0;
+  z-index: 15;
+  transform: rotate(5deg);
+  width: 332px;
+  min-height: 150px;
+  margin: -9px 12px 23px;
+  padding: 10px;
+  font-size: 14px;
+  color: #000;
+  background: #ea4f50;
+  box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.3);
+}
+
+
+.sticky:before, .sticky:after {
+  /*content: "";*/
+  /*display: block;*/
+  /*position: absolute;*/
+  /*width: 16px;*/
+  /*height: 16px;*/
+  /*top: 0;*/
+  /*right: 0;*/
+}
+.sticky:before {
+   /*border-top: solid 8px #fff; */
+   /*border-right: solid 8px #fff; */
+   /*border-left: solid 8px transparent; */
+   /*border-bottom: solid 8px transparent; */
+}
+.sticky:after {
+   /*border-bottom: solid 8px #dddd33; */
+   /*border-left: solid 8px #dddd33; */
+   /*border-right: solid 8px transparent; */
+   /*border-top: solid 8px transparent; */
+}
