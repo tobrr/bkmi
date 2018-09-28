@@ -45,7 +45,7 @@ collections:
         field:
           - label: imgsrc
             name: imgsrc
-            widget: string
+            widget: file
           - label: imgalt
             name: imgalt
             widget: string
