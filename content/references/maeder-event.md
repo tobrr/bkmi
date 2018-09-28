@@ -8,6 +8,32 @@
   button = "Get In Touch"
   icon = "icon-bulb"
   img = "img/references/maeder-event.jpg"
+ 
+  [carousel]
+    [carousel.1]
+    imgsrc = "img/references/maeder/IMGL6817.jpeg"
+    imgalt = "ref 1"
+    [carousel.2]
+    imgsrc = "img/references/maeder/IMGL7016.jpeg"
+    imgalt = "ref 1"    
+    [carousel.3]
+    imgsrc = "img/references/maeder/IMGL7035.jpeg"
+    imgalt = "ref 1"    
+    [carousel.4]
+    imgsrc = "img/references/maeder/IMGL7077.jpeg"
+    imgalt = "ref 1"    
+    [carousel.5]
+    imgsrc = "img/references/maeder/IMGL7111.jpeg"
+    imgalt = "ref 1"    
+    [carousel.6]
+    imgsrc = "img/references/maeder/IMGL7231.jpeg"
+    imgalt = "ref 1"    
+    [carousel.7]
+    imgsrc = "img/references/maeder/IMGL7272.jpeg"
+    imgalt = "ref 1"    
+    [carousel.8]
+    imgsrc = "img/references/maeder/IMGL7294.jpeg"
+    imgalt = "ref 1"
 +++
 
 <p><strong>Event zur Schadstoffsanierung</strong></p>
