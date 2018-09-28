@@ -8,6 +8,14 @@
   button = "Get In Touch"
   icon = "icon-bulb"
   img = "img/references/stuecheli-architekten-jahrbuch.jpg"
+  
+    [carousel]
+    [carousel.1]
+    imgsrc = "img/references/stuecheli/IMGL6569.JPG"
+    imgalt = "ref 1"
+    [carousel.2]
+    imgsrc = "img/references/stuecheli/IMGL6571.JPG"
+    imgalt = "ref 1" 
 +++
 
 <p><strong>Jahrbuch St&uuml;cheli Architekten AG</strong></p>
