@@ -8,6 +8,19 @@
   button = "Get In Touch"
   icon = "icon-bulb"
   img = "img/references/bijoux-stadelmann-event.jpg"
+  
+  
+  [carousel]
+    [carousel.1]
+    imgsrc = "img/references/bijoux-stadelmann/IMG_7344.jpeg"
+    imgalt = "ref 1"
+    [carousel.2]
+    imgsrc = "img/references/bijoux-stadelmann/IMG_6699.jpeg"
+    imgalt = "ref 1"    
+    [carousel.3]
+    imgsrc = "img/references/bijoux-stadelmann/IMG_6653.jpeg"
+    imgalt = "ref 1"    
+  
 +++
 
 <p><strong>Er&ouml;ffnung der Trouvaille der Bijoux Stadelmann AG</strong></p>

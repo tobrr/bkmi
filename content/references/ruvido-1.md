@@ -8,6 +8,11 @@
   button = "Get In Touch"
   icon = "icon-bulb"
   img = "img/references/ruvido-campagne.jpg"
+  
+    [carousel]
+        [carousel.1]
+        imgsrc = "img/references/ruvido/IMGL6517.JPG"
+        imgalt = "ref 1"
 +++
 
 <p><strong>Ruvido - einfach stark!</strong></p>

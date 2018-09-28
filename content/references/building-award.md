@@ -9,6 +9,25 @@
   button = "Get In Touch"
   icon = "icon-bulb"
   img = "img/references/buildingaward2.jpg"
+  
+  
+  [carousel]
+    [carousel.1]
+    imgsrc = "img/references/building-award/IMGL9040.jpeg"
+    imgalt = "ref 1"
+    [carousel.2]
+    imgsrc = "img/references/building-award/IMGL9049.jpeg"
+    imgalt = "ref 1"    
+    [carousel.3]
+    imgsrc = "img/references/building-award/IMGL9385.jpeg"
+    imgalt = "ref 1"    
+    [carousel.4]
+    imgsrc = "img/references/building-award/IMGL9601.jpeg"
+    imgalt = "ref 1"    
+    [carousel.5]
+    imgsrc = "img/references/building-award/IMGL9702.jpeg"
+    imgalt = "ref 1"    
+   
 +++
 
 <p><strong>Building-Award &ndash; Die Auszeichnung f&uuml;r den Ingenieur am Bau</strong></p>
