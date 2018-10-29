@@ -13,6 +13,26 @@
 
 }
 
+
+#bkmi-small-header img {
+    height: 5em;
+    margin: 1em;
+}
+
+.bkmi-single-title {
+    margin: 0px 0 -2em 0;
+}
+
+section#bkmi-small-header {
+    margin: 0 0 -2em 0;
+}
+
+@media(min-width: 991.98px )  { 
+section#bkmi-small-header {
+    margin: 0 0 -4em 0;
+}
+}
+
 /*#fh5co-home .gradient {*/
 /*    display: none;*/
 /*    position: absolute;*/

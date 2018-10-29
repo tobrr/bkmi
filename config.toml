@@ -4,6 +4,7 @@ title = "Baukoma-Marketimpact"
 theme = "hugo-elate-theme"
 
 
+
   #-----------------------------------------------------------------------------------------------------#
   #Menu Header
   [menu]
@@ -24,8 +25,9 @@ theme = "hugo-elate-theme"
   #-----------------------------------------------------------------------------------------------------#
   # Hero section
   [params.hero]
-  title = '<div class="bkmi"><img src="img/Logo_bmAG_RGB.png" ></div>'
+  # title = '<div class="bkmi"><img src="img/Logo_bmAG_RGB.png" ></div>'
   subtitle = ""
+  image = 'img/Logo_bmAG_RGB.png'
   background = 'img/backgroundbulp.jpg'
   
   [params.hero.stripe]

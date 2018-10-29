@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+{{ partial "head.html"  }}
+ss
+  <body id="page-top">
+  dd
+    <!-- Navigation -->nnnn
+    {{ partial "nav.html" }}
+dff
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body text-left">
+              
+              {{ .Content }}
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  
+
+  
+    <!-- Contact -->
+    {{ partial "contact.html"  }}
+  
+    <!-- Footer -->
+    {{ partial "footer.html"  }}
+  
+    <!-- JS -->
+    {{ partial "js.html" }}
+  
+  </body>
+
+</html>
