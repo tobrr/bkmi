@@ -1,6 +1,6 @@
 +++
 title = "Silenthelp"
-url =    "referenzen/grafik/marketing/konzept-branding-logo-silenthelpr"
+url =    "referenzen/grafik/marketing/konzept-branding-logo-silenthelp"
 col_size = "col-12 col-sm-4"
 categorie = "Strategie und Branding / Grafik"
 description = "Für ein Alarmsystem, das Leben retten kann, durften wir ein umfassendes Branding-Konzept inkl. Broschüre erstellen."
