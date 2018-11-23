@@ -152,8 +152,18 @@ theme = "hugo-elate-theme"
   [[params.about.item]]
   name = "Sandra Kummer"
   position = "Grafik"
-  description = "Sandra Kummer ist Polygrafin und zuständig für die visuelle Gestaltung inkl. Druckvorstufe. Kreativität und Grafik ist ihr Metier."
+  description = "Sandra Kummer ist Polygrafin und zuständig für die visuelle Gestaltung inkl. Druckvorstufe. Kreativität und Grafik sind ihr Metier."
   img = "img/team/s-k.png"
+  alt = "Sandra Kummer – Grafik"
+  social = [
+    ["icon-mail2", "mailto:s-k@baukoma-marketimpact.ch"]
+  ]
+  
+  [[params.about.item]]
+  name = "Bernadette von Almen"
+  position = "Grafik"
+  description = "Bernadette von Allmen ist Polygrafin und zuständig für die visuelle Gestaltung inkl. Druckvorstufe."
+  img = "img/team/b-v.png"
   alt = "Sandra Kummer – Grafik"
   social = [
     ["icon-mail2", "mailto:s-k@baukoma-marketimpact.ch"]
@@ -218,7 +228,7 @@ theme = "hugo-elate-theme"
   description = "Wir haben immer ein offenes Ohr und gute Ideen. Wir freuen uns auf Ihren Anruf, eine Nachricht und noch mehr über Ihren Besuch."
   # Available icons: http://simplelineicons.com/
   details = [
-    ["icon-home", "Baukoma-Marketimpact AG . Rainackerstrasse 4 . Postfach CH-4562 Biberist"],
+    ["icon-home", "Baukoma-Marketimpact AG . Rainackerstrasse 4 . Postfach CH-4562 Biberist . Solothurn"],
     ["icon-phone", "T +41 31 755 85 84"],
     ["icon-envelope", "info@baukoma-marketimpact.ch"],
     ["icon-globe", '<a href="//www.baukoma-marketimpact.ch" target="_blank">www.baukoma-marketimpact.ch</a>']

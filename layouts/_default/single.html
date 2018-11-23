@@ -71,7 +71,7 @@
                   <p><strong>{{ .Params.title }}</strong></p>
                 </div>
                 {{ else }} 
-                  {{with .Content}} {{ . | safeHTML }} 
+                 {{with .Content}} {{ . | safeHTML }} 
                 {{end}} 
               {{ end }}
             </div>
@@ -100,6 +100,14 @@
     <!-- JS -->
     {{ partial "js.html" . }}
   
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120567213-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-120567213-1');
+        </script>
   </body>
 
 </html>

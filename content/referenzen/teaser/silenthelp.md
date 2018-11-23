@@ -19,5 +19,5 @@ img = "img/references/silenthelp/silenthelp-01.jpg"
 <p><strong>Brosch&uuml;re für Silenthelp</strong></p>
 <p>Für ein Alarmsystem, das Leben retten kann, durften wir ein umfassendes Branding-Konzept inkl. Brosch&uuml;re erstellen.</p>
 
-<a href="https://www.baukoma-marketimpact.ch/referenzen/grafik/marketing/konzept-branding-logo-silenthelp/"><p>Hier erfahren Sie wie die Brosch&uuml;re entstanden ist.</p></a>
+<a href="/referenzen/grafik/marketing/konzept-branding-logo-silenthelp/"><p>Hier erfahren Sie wie die Brosch&uuml;re entstanden ist</p></a>
 
