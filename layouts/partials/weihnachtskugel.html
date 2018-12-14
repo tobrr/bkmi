@@ -1,4 +1,4 @@
-	    	    <style>
+	    <style>
     #weihnachtskugel {
         position: relative;
         z-index: 999999;
@@ -12,16 +12,17 @@
         height: 314px;
         margin: auto;
         position: relative;
-        zoom: 153%;
         overflow: hidden;
-        top: -1.2em;
+        top: 2.6em;
+        transform: scale(1.5);
     }
 
     #weihnachtskugel .snowman {
-        zoom: 89%;
+         
         top: 1.6em;
         position: absolute;
         left: -1.1em;
+        transform: scale(0.88);
     }
 
     #weihnachtskugel .branch-top {
@@ -92,9 +93,10 @@
         width: 100px;
         height: 205px;
         position: absolute;
-        left: 19.7em;
-        top: 8.5em;
-        zoom: 70%;
+        left: 13.2em;
+        top: 4.4em;
+         
+        transform: scale(0.75);
     }
 
     #weihnachtskugel .sg-bg {
@@ -356,7 +358,7 @@
         color: #969696;
         font-weight: 500;
         display: block;
-        /* text-shadow: 0px 1px 10px black; */
+         
         line-height: 17px;
         text-align: center;
         left: 7.7em;
@@ -373,8 +375,9 @@
     }
     @media screen and (max-width: 548px) {
         #weihnachtskugel .snowglobe {
-            zoom: 114%;
-            top: 3.8em;
+            /* zoom: 114%; */
+            top: 5.7em;
+            transform: scale(1.1);
         }
         #weihnachtskugel .frohe-weihnachten {
             left: 90px;
@@ -382,8 +385,9 @@
     }
     @media screen and (max-width: 414px) {
         #weihnachtskugel .snowglobe {
-            zoom: 94%;
-            top: 7.8em;
+            /* zoom: 94%; */
+            top: 7.3em;
+            transform: scale(0.9);
         }
         #weihnachtskugel .frohe-weihnachten {
             
@@ -392,8 +396,9 @@
     }
     @media screen and (max-width: 340px) {
         #weihnachtskugel .snowglobe {
-            zoom: 75%;
-            top: 13.8em;
+            transform: scale(0.7);
+            /* zoom: 75%; */
+            top: 8.9em;
         }
     }
 </style>
